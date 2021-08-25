@@ -1,0 +1,140 @@
+<html>
+<head>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     
+     <!--字體-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
+     
+     <link rel="stylesheet" href="css/style.css">
+
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     
+     <title>面試題目</title>
+</head>
+
+<body>
+
+   <!--上面BAR-->
+   <header>
+      <div class='container'> 
+          <nav class="navbar navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#footer">
+                <img src="img/logo.jpeg" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                Lin's Testweb
+              </a>
+            </div>
+          </nav>      
+      </div>
+    </header>
+
+  <!--首頁圖pan-->
+  <section id='intro'>
+      <div class='jumbotron'>
+         <div class='container'>  
+           <div class='row' >      
+                <div class='col-md-8  offset-md-2  text-center'>
+                    <h2>面試題目</h2>
+                    <p class='lead'>浩鑫股份有限公司測試</p>
+                    <a class='btn' href='#exampletitle'>了解更多</a>
+                </div>
+            </div> 
+         </div>
+      </div>   
+  </section>
+
+  <!--說明-->
+  <section id='second'>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-8  offset-md-2  text-center'>
+            <h4>CSS的Position用法</h4>
+            <div class='row'>
+                <div class='col-md-4'>
+                  <img src='img/cssicon.png'>
+                  <h6>Basic CSS</h6>
+                </div>
+                <div class='col-md-8  text-left'>
+                  <p class='lead'>Position的用法與基礎概念說明</p>
+                  <p>我目前所了解到的CSS有四種，分別為：
+                    <ul>
+                      <li>static</li>
+                      <li>absolute</li>
+                      <li>relative</li>
+                      <li>fixed</li>
+                    </ul>
+                  </p>
+                  <p>為CSS的排版功能，若能熟練運用，就能做出令人驚豔的視覺效果。以下將簡單操作四種用法，並說明其意涵。
+                  </p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+ <!--範例標題-->
+  <section id='exampletitle'>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-8  offset-md-2  text-center'>
+            <h4>操作說明</h4>
+          </div>
+        </div>
+      </div>
+ </section>
+
+ <!--範例 01-->
+  <section id='third'>
+    <div class='container'>
+        <div id='wrap'>
+          <h4>Static & Absolute</h4>
+          <p>Absolute意思是「絕對位置」，若將底圖視為基底淺藍區塊，
+            設定距離後，物體就會像座標一樣被定位在區塊。下圖的藍色圓為絕對位置(absolute)
+            距離淺藍區塊上緣195px，並距離左緣200px。
+          </p>
+          <div class="box1">absolute</div>
+          <div class="box1-origin">static</div>
+        </div>
+    </div>
+  </section>
+
+ <!--範例 02-->
+  <section id='fourth'>
+    <div class='container'>
+        <div id='wrap'>
+          <h4>Relative & fixed</h4>
+          <p>Relative意思是「相對位置」，設定距離後，物體就會以原典為中心偏移。
+            虛線為參考圓(relative-1)，下圖的綠色實心圓(relative-2)表「相對位置」，
+            若無設定，綠色實心圓應在參考圓下方，圖例為向上偏移-20px，並左至右偏移160px。
+          </p>
+          <div class="box2">relative-1</div>
+          <div class="box3">relative-2</div> 
+          
+          <p>Fixed意思是「固定位置」，設定後即可固定於頁面，例如常見的跳至頂部，或是客服按鈕。
+            你也可以在此頁面右下角，看到範例。
+          </p>        
+        </div>
+    </div>
+    <a href="#" id="gotop_btn">▲<br />Top</a>
+  </section>
+
+  <footer id=footer>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-md-8  offset-md-2  text-center'>
+          <p>應徵者：林翊婷</p>
+          <p>E-mail：b10536012@yuntech.org.tw</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
+</body>
+
+</html>
